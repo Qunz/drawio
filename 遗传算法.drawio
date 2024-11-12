@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="893" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1077" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -16,130 +16,34 @@
         <mxCell id="27l4rMOcA5HDoT4Rec7--2" value="初始化种群" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="180" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="27l4rMOcA5HDoT4Rec7--69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="27l4rMOcA5HDoT4Rec7--4" target="27l4rMOcA5HDoT4Rec7--68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="27l4rMOcA5HDoT4Rec7--4" value="种群个体评分" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="280" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--7" value="&lt;div&gt;满足基本要求：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. 分配的教学任务班级人数不超过教室容量&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2. 分配的教学任务课时不超过总课时数&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3. 一次最少两节课，可直接按照一次课计算&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="800" y="150" width="230" height="110" as="geometry" />
+        <mxCell id="27l4rMOcA5HDoT4Rec7--7" value="&lt;div&gt;满足基本要求：&lt;/div&gt;&lt;div&gt;1. 分配的教学任务班级人数不超过教室容量&lt;/div&gt;&lt;div&gt;2. 分配的教学任务课时不超过总课时数&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 一次最少两节课，可直接按照一次课计算&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="160" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="27l4rMOcA5HDoT4Rec7--13" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="150" width="30" height="110" as="geometry" />
+          <mxGeometry x="760" y="160" width="30" height="80" as="geometry" />
         </mxCell>
         <mxCell id="27l4rMOcA5HDoT4Rec7--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="27l4rMOcA5HDoT4Rec7--2" target="27l4rMOcA5HDoT4Rec7--13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="27l4rMOcA5HDoT4Rec7--15" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="270" width="30" height="100" as="geometry" />
+          <mxGeometry x="760" y="260" width="30" height="140" as="geometry" />
         </mxCell>
         <mxCell id="27l4rMOcA5HDoT4Rec7--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="27l4rMOcA5HDoT4Rec7--15" source="27l4rMOcA5HDoT4Rec7--4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--17" value="&lt;div&gt;评分规则：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. 同一天同一时间，课程不能相同，一个课程只有一个老师不可同时在两个教室上课，得分-100&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2. 当天每一个教学任务只出现一次，得分10；出现2次，得分5分；出现三次，1分，更多时，得零分&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3. 教学任务出现在晚上，得分3分&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="800" y="270" width="230" height="140" as="geometry" />
+        <mxCell id="27l4rMOcA5HDoT4Rec7--17" value="&lt;div&gt;评分规则：&lt;/div&gt;&lt;div&gt;1. 同一天同一时间，课程不能相同，一个课程只有一个老师不可同时在两个教室上课，&lt;font color=&quot;#ff0000&quot;&gt;得分-1000&lt;/font&gt;&lt;/div&gt;&lt;div&gt;2. 每天每一个教学任务只出现一次，得分0；出现2次，&lt;font color=&quot;#ff0303&quot;&gt;得分-10分&lt;/font&gt;；出现三次，&lt;font color=&quot;#ff0303&quot;&gt;-20分&lt;/font&gt;，更多时，得分以此类推&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 教学任务出现在晚上，&lt;font color=&quot;#ff0303&quot;&gt;得分-5分&lt;/font&gt;，出现在&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 同一个班不能在同一时间上不同的课，反之&lt;font color=&quot;#ff0303&quot;&gt;得分-1000&lt;/font&gt;&lt;/div&gt;&lt;div&gt;5. 同一个班一天上4次课，&lt;font color=&quot;#ff0303&quot;&gt;得分-10&lt;/font&gt;；5次课，&lt;font color=&quot;#ff0303&quot;&gt;得分-20&lt;/font&gt;&lt;/div&gt;&lt;div&gt;6. 教室容量小于班级人数&lt;span style=&quot;background-color: initial;&quot;&gt;，&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#ff0000&quot;&gt;得分-1000&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;7.&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;分配的教学任务课时超过总课时数，&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;得分-1000&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="260" width="320" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--44" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="80" width="384" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--45" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--44">
-          <mxGeometry width="384" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--46" value="每周" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rowspan=1;colspan=6;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--45">
-          <mxGeometry width="384" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--47" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="27l4rMOcA5HDoT4Rec7--45">
-          <mxGeometry x="64" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--48" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="27l4rMOcA5HDoT4Rec7--45">
-          <mxGeometry x="128" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--57" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="27l4rMOcA5HDoT4Rec7--45">
-          <mxGeometry x="192" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--60" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="27l4rMOcA5HDoT4Rec7--45">
-          <mxGeometry x="256" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--63" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0" parent="27l4rMOcA5HDoT4Rec7--45">
-          <mxGeometry x="320" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--44">
-          <mxGeometry y="40" width="384" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--50" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--49">
-          <mxGeometry width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--51" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--49">
-          <mxGeometry x="64" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--52" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--49">
-          <mxGeometry x="128" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--58" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--49">
-          <mxGeometry x="192" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--61" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--49">
-          <mxGeometry x="256" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--64" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--49">
-          <mxGeometry x="320" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--44">
-          <mxGeometry y="80" width="384" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--54" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--53">
-          <mxGeometry width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--55" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--53">
-          <mxGeometry x="64" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--56" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--53">
-          <mxGeometry x="128" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--53">
-          <mxGeometry x="192" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--62" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--53">
-          <mxGeometry x="256" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27l4rMOcA5HDoT4Rec7--65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="27l4rMOcA5HDoT4Rec7--53">
-          <mxGeometry x="320" width="64" height="40" as="geometry">
-            <mxRectangle width="64" height="40" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="27l4rMOcA5HDoT4Rec7--68" value="最高评分" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="380" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
