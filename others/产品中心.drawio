@@ -650,8 +650,11 @@
         <mxCell id="JWCKR03p2TI2m8JaXCn--26" value="新建项目" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="350" y="1350" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="wTHF4CS_ueVbuuaKIdHS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="JWCKR03p2TI2m8JaXCn--27" target="JWCKR03p2TI2m8JaXCn--29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JWCKR03p2TI2m8JaXCn--27" value="产品管理" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="900" width="140" height="60" as="geometry" />
+          <mxGeometry x="1025" y="1350" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JWCKR03p2TI2m8JaXCn--28" value="发通知公告" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1210" y="1050" width="140" height="60" as="geometry" />
@@ -678,7 +681,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="urH9J6LzFR5qqahHfoug-1" value="交建通推送" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1025" y="1300" width="140" height="60" as="geometry" />
+          <mxGeometry x="1210" y="900" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="urH9J6LzFR5qqahHfoug-2" value="用户管理" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1210" y="1200" width="140" height="60" as="geometry" />
@@ -687,7 +690,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ztbGTZT_guA8Tgi3oQxa" name="新建项目活动图">
-    <mxGraphModel dx="2576" dy="2162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -798,10 +801,10 @@
         <mxCell id="DbXQLc6WqwoIvRMvbDwH-60" value="展示应用矩阵" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;rotation=0;" vertex="1" parent="DbXQLc6WqwoIvRMvbDwH-36">
           <mxGeometry x="380" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DbXQLc6WqwoIvRMvbDwH-64" value="点击AIDE应用" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;rotation=0;" vertex="1" parent="DbXQLc6WqwoIvRMvbDwH-36">
+        <mxCell id="DbXQLc6WqwoIvRMvbDwH-64" value="点击AIDE设计态" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;rotation=0;" vertex="1" parent="DbXQLc6WqwoIvRMvbDwH-36">
           <mxGeometry x="640" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DbXQLc6WqwoIvRMvbDwH-69" value="跳转AIDE页面" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;rotation=0;" vertex="1" parent="DbXQLc6WqwoIvRMvbDwH-36">
+        <mxCell id="DbXQLc6WqwoIvRMvbDwH-69" value="点击AIDE运行态" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;rotation=0;" vertex="1" parent="DbXQLc6WqwoIvRMvbDwH-36">
           <mxGeometry x="780" y="40" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DbXQLc6WqwoIvRMvbDwH-45" value="产品中心" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="DbXQLc6WqwoIvRMvbDwH-35">
@@ -856,11 +859,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DbXQLc6WqwoIvRMvbDwH-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DbXQLc6WqwoIvRMvbDwH-35" source="DbXQLc6WqwoIvRMvbDwH-64" target="DbXQLc6WqwoIvRMvbDwH-67">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="229.86435313141146" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DbXQLc6WqwoIvRMvbDwH-71" value="&lt;span style=&quot;background-color: rgb(255, 217, 102);&quot;&gt;方案待确认&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DbXQLc6WqwoIvRMvbDwH-68">
           <mxGeometry x="-0.0817" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DbXQLc6WqwoIvRMvbDwH-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DbXQLc6WqwoIvRMvbDwH-35" source="DbXQLc6WqwoIvRMvbDwH-67" target="DbXQLc6WqwoIvRMvbDwH-69">
