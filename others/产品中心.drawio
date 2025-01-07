@@ -1913,7 +1913,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2vb7TEuV9nP-yviOatGZ" name="登录交互">
-    <mxGraphModel dx="1562" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1302" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2205,66 +2205,167 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Amm5WYvxR3glKLS_dkEl-22" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="560" width="20" height="240" as="geometry" />
+          <mxGeometry x="1570" y="560" width="20" height="380" as="geometry" />
         </mxCell>
         <mxCell id="Amm5WYvxR3glKLS_dkEl-23" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1660" y="560" width="80" height="240" as="geometry" />
+          <mxGeometry x="1660" y="560" width="80" height="380" as="geometry" />
         </mxCell>
         <mxCell id="Amm5WYvxR3glKLS_dkEl-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Amm5WYvxR3glKLS_dkEl-23">
-          <mxGeometry x="35" y="80" width="10" height="140" as="geometry" />
+          <mxGeometry x="35" y="80" width="10" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Amm5WYvxR3glKLS_dkEl-26" value="统一认证&lt;div&gt;服务端&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1820" y="560" width="80" height="240" as="geometry" />
+          <mxGeometry x="1820" y="560" width="80" height="380" as="geometry" />
         </mxCell>
         <mxCell id="Amm5WYvxR3glKLS_dkEl-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Amm5WYvxR3glKLS_dkEl-26">
-          <mxGeometry x="35" y="120" width="10" height="100" as="geometry" />
+          <mxGeometry x="35" y="160" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Amm5WYvxR3glKLS_dkEl-28" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;刷新token&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=9;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" edge="1" parent="Amm5WYvxR3glKLS_dkEl-26" source="Amm5WYvxR3glKLS_dkEl-27" target="Amm5WYvxR3glKLS_dkEl-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="135" as="sourcePoint" />
-            <mxPoint x="50" y="165" as="targetPoint" />
+            <mxPoint x="50" y="175" as="sourcePoint" />
+            <mxPoint x="50" y="205" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="70" y="130" />
-              <mxPoint x="70" y="160" />
+              <mxPoint x="70" y="170" />
+              <mxPoint x="70" y="200" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Amm5WYvxR3glKLS_dkEl-29" value="&lt;div style=&quot;text-align: center;&quot;&gt;生成产品token&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=9;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" edge="1" parent="Amm5WYvxR3glKLS_dkEl-26" source="Amm5WYvxR3glKLS_dkEl-27" target="Amm5WYvxR3glKLS_dkEl-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="180" as="sourcePoint" />
-            <mxPoint x="50" y="210" as="targetPoint" />
+            <mxPoint x="50" y="220" as="sourcePoint" />
+            <mxPoint x="50" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="70" y="180" />
-              <mxPoint x="70" y="210" />
+              <mxPoint x="70" y="220" />
+              <mxPoint x="70" y="250" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Amm5WYvxR3glKLS_dkEl-31" value="其他产品&lt;br&gt;服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1980" y="560" width="80" height="240" as="geometry" />
+          <mxGeometry x="1980" y="560" width="80" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="Amm5WYvxR3glKLS_dkEl-33" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;token过期，刷新token&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="650" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Amm5WYvxR3glKLS_dkEl-34" value="请求刷新token接口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=9;" edge="1" parent="1" source="Amm5WYvxR3glKLS_dkEl-24" target="Amm5WYvxR3glKLS_dkEl-27">
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-34" value="请求刷新token接口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=9;" edge="1" parent="1" target="Amm5WYvxR3glKLS_dkEl-27">
           <mxGeometry x="-0.0031" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1830" y="680" />
-              <mxPoint x="1830" y="680" />
+              <mxPoint x="1830" y="720" />
+              <mxPoint x="1830" y="720" />
             </Array>
             <mxPoint as="offset" />
+            <mxPoint x="1705" y="720" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Amm5WYvxR3glKLS_dkEl-35" value="返回token" style="html=1;verticalAlign=middle;endArrow=classic;rounded=0;fontSize=7;elbow=vertical;endFill=1;" edge="1" parent="1" source="Amm5WYvxR3glKLS_dkEl-27">
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-35" value="返回token" style="html=1;verticalAlign=middle;endArrow=open;rounded=0;fontSize=7;elbow=vertical;endFill=0;dashed=1;" edge="1" parent="1" source="Amm5WYvxR3glKLS_dkEl-27">
           <mxGeometry y="-10" width="80" relative="1" as="geometry">
-            <mxPoint x="1855" y="780" as="sourcePoint" />
-            <mxPoint x="1705" y="780" as="targetPoint" />
+            <mxPoint x="1855" y="820" as="sourcePoint" />
+            <mxPoint x="1705" y="820" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Amm5WYvxR3glKLS_dkEl-42" value="&lt;span style=&quot;font-size: 9px; text-align: left; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;产品页面&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="650" width="80" height="20" as="geometry" />
+          <mxGeometry x="1600" y="770" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-44" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;请求接口&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=9;" edge="1" parent="1" source="Amm5WYvxR3glKLS_dkEl-24" target="Amm5WYvxR3glKLS_dkEl-31">
+          <mxGeometry x="-0.0143" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1940" y="640" />
+              <mxPoint x="1940" y="640" />
+            </Array>
+            <mxPoint x="1590" y="650" as="sourcePoint" />
+            <mxPoint x="1705" y="650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-45" value="token过期" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.0143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2019.5" y="680" as="sourcePoint" />
+            <mxPoint x="1705" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-46" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;重新请求接口&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=9;" edge="1" parent="1" source="Amm5WYvxR3glKLS_dkEl-24" target="Amm5WYvxR3glKLS_dkEl-31">
+          <mxGeometry x="-0.0143" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1930" y="860" />
+              <mxPoint x="1930" y="860" />
+            </Array>
+            <mxPoint x="1702.5" y="859.17" as="sourcePoint" />
+            <mxPoint x="2017.5" y="859.17" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-47" value="返回" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.0143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2019.5" y="900" as="sourcePoint" />
+            <mxPoint x="1705" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-48" value="登出" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=9;" edge="1" parent="1" source="Amm5WYvxR3glKLS_dkEl-49" target="Amm5WYvxR3glKLS_dkEl-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2290" y="640" />
+              <mxPoint x="2290" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-49" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="560" width="20" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-50" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2280" y="560" width="80" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Amm5WYvxR3glKLS_dkEl-50">
+          <mxGeometry x="35" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-52" value="统一认证&lt;div&gt;服务端&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2440" y="560" width="80" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-53" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Amm5WYvxR3glKLS_dkEl-52">
+          <mxGeometry x="35" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-56" value="其他产品&lt;br&gt;服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2600" y="560" width="80" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-64" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Amm5WYvxR3glKLS_dkEl-56">
+          <mxGeometry x="35" y="160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-58" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;登出成功&lt;/span&gt;" style="html=1;verticalAlign=middle;endArrow=open;rounded=0;fontSize=7;elbow=vertical;endFill=0;dashed=1;" edge="1" parent="1" target="Amm5WYvxR3glKLS_dkEl-64">
+          <mxGeometry x="-0.0291" width="80" relative="1" as="geometry">
+            <mxPoint x="2485" y="720" as="sourcePoint" />
+            <mxPoint x="2639.4999999999995" y="720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-59" value="&lt;span style=&quot;font-size: 9px; text-align: left; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;产品页面&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="690" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-60" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;请求登出接口&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=9;" edge="1" parent="1" source="Amm5WYvxR3glKLS_dkEl-51" target="Amm5WYvxR3glKLS_dkEl-56">
+          <mxGeometry x="-0.0143" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2560" y="640" />
+              <mxPoint x="2560" y="640" />
+            </Array>
+            <mxPoint x="2210" y="650" as="sourcePoint" />
+            <mxPoint x="2325" y="650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-61" value="请求登出接口" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;endArrow=classic;endFill=1;" edge="1" parent="1" target="Amm5WYvxR3glKLS_dkEl-53">
+          <mxGeometry x="0.014" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2639.5" y="680" as="sourcePoint" />
+            <mxPoint x="2325" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-63" value="登出成功" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="Amm5WYvxR3glKLS_dkEl-64">
+          <mxGeometry x="0.0143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2639.5" y="760" as="sourcePoint" />
+            <mxPoint x="2325" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amm5WYvxR3glKLS_dkEl-65" value="产品内登出" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="725" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
