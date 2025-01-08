@@ -2444,7 +2444,7 @@
             <mxPoint x="11" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="As3sCTmDRA7Lry6K150G-10" value="AIDE" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="As3sCTmDRA7Lry6K150G-10" value="C4AI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="3240" y="560" width="80" height="400" as="geometry" />
         </mxCell>
         <mxCell id="As3sCTmDRA7Lry6K150G-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="As3sCTmDRA7Lry6K150G-10">
@@ -2460,7 +2460,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="As3sCTmDRA7Lry6K150G-13" value="获取&lt;span style=&quot;font-family: helvetica; text-align: left; text-wrap-mode: wrap;&quot;&gt;fusionpaas.com域中cookie&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelPosition=right;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="As3sCTmDRA7Lry6K150G-12">
+        <mxCell id="As3sCTmDRA7Lry6K150G-13" value="获取&lt;span style=&quot;font-family: helvetica; text-wrap-mode: wrap;&quot;&gt;ccccltd.com域&lt;/span&gt;&lt;span style=&quot;font-family: helvetica; text-align: left; text-wrap-mode: wrap;&quot;&gt;中cookie&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelPosition=right;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="As3sCTmDRA7Lry6K150G-12">
           <mxGeometry x="-0.1476" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="7" as="offset" />
           </mxGeometry>
@@ -2475,7 +2475,7 @@
             <mxPoint x="2955.19" y="800.0044827586207" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="As3sCTmDRA7Lry6K150G-15" value="&lt;span style=&quot;font-family: &amp;quot;helvetica&amp;quot; ; font-size: 9px ; background-color: rgb(255 , 255 , 255)&quot;&gt;登录成功后&lt;/span&gt;&lt;br style=&quot;font-family: &amp;quot;helvetica&amp;quot; ; font-size: 9px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;helvetica&amp;quot; ; font-size: 9px ; background-color: rgb(255 , 255 , 255)&quot;&gt;服务端写入Cookie到&lt;/span&gt;&lt;br style=&quot;font-family: &amp;quot;helvetica&amp;quot; ; font-size: 9px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;helvetica&amp;quot; ; font-size: 9px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ccccltd.com域&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;helvetica&amp;quot; ; font-size: 9px ; background-color: rgb(255 , 255 , 255)&quot;&gt;fusionpaas.com域&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="As3sCTmDRA7Lry6K150G-15" value="&lt;span style=&quot;font-family: helvetica; font-size: 9px; background-color: rgb(255, 255, 255);&quot;&gt;登录成功后&lt;/span&gt;&lt;br style=&quot;font-family: helvetica; font-size: 9px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: helvetica; font-size: 9px; background-color: rgb(255, 255, 255);&quot;&gt;服务端写入Cookie到&lt;/span&gt;&lt;br style=&quot;font-family: helvetica; font-size: 9px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: helvetica; font-size: 9px; background-color: rgb(255, 255, 255);&quot;&gt;ccccltd.com域&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3130" y="710" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="As3sCTmDRA7Lry6K150G-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;根据Cookie获取token&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;endSize=6;rounded=0;fontSize=9;endFill=1;" edge="1" parent="1" source="As3sCTmDRA7Lry6K150G-11" target="As3sCTmDRA7Lry6K150G-20">
