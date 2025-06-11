@@ -2478,6 +2478,39 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="81oPWqusaZGe9d9idhpz-1" value="接入层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="181" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="181" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="80" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="520" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="620" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="81oPWqusaZGe9d9idhpz-12" value="用户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
