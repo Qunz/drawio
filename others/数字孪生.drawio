@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="第 1 页" id="TWmrG3oodLnLUxh_rY0R">
+    <mxGraphModel dx="888" dy="1635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-6" value="1. 组件名称&lt;div&gt;2. 协议类型&lt;/div&gt;&lt;div&gt;3. 端口&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=left;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-4" target="C81Zs6hBcrObSyvkOhi6-5">
+          <mxGeometry x="0.6364" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-19" value="1. 实例名称&lt;div&gt;2. 网络组件&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=left;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-4" target="C81Zs6hBcrObSyvkOhi6-18">
+          <mxGeometry x="0.5455" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-4" value="用户" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-9" value="网络组件信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-5" target="C81Zs6hBcrObSyvkOhi6-8">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-5" value="创建网络组件" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-8" target="C81Zs6hBcrObSyvkOhi6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-8" value="网络组件&lt;br&gt;（network_gateway）" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-10" target="C81Zs6hBcrObSyvkOhi6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-10" value="新增协议" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-11" value="1. 协议名称&lt;div&gt;2. 协议类型&lt;br&gt;&lt;div&gt;2. 脚本 / jar包&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-4" target="C81Zs6hBcrObSyvkOhi6-10">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-12" target="C81Zs6hBcrObSyvkOhi6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-12" value="设备协议&lt;br&gt;（device_protocol）" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-14" value="同步网关设备" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-16" value="加载协议" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C81Zs6hBcrObSyvkOhi6-18" value="新增插件实例" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
