@@ -76,7 +76,7 @@
           <mxGeometry x="320" y="40" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tgqBs-2qhETHzA4OnDz1-11" value="插件示例&lt;br&gt;（plugin_instance）" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="840" y="120" width="120" height="40" as="geometry" />
+          <mxGeometry x="640" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tgqBs-2qhETHzA4OnDz1-13" value="网络组件&lt;div&gt;信息&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;horizontal=1;labelBackgroundColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-8" target="C81Zs6hBcrObSyvkOhi6-18">
           <mxGeometry x="0.2758" relative="1" as="geometry">
@@ -89,11 +89,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tgqBs-2qhETHzA4OnDz1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-18" target="tgqBs-2qhETHzA4OnDz1-11">
+        <mxCell id="tgqBs-2qhETHzA4OnDz1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-18" target="tgqBs-2qhETHzA4OnDz1-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700" y="200" />
-              <mxPoint x="900" y="200" />
+              <mxPoint x="700" y="190" />
+              <mxPoint x="700" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
