@@ -76,7 +76,7 @@
           <mxGeometry x="320" y="40" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tgqBs-2qhETHzA4OnDz1-11" value="插件示例&lt;br&gt;（plugin_instance）" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="640" y="200" width="120" height="40" as="geometry" />
+          <mxGeometry x="840" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tgqBs-2qhETHzA4OnDz1-13" value="网络组件&lt;div&gt;信息&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;horizontal=1;labelBackgroundColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-8" target="C81Zs6hBcrObSyvkOhi6-18">
           <mxGeometry x="0.2758" relative="1" as="geometry">
@@ -90,7 +90,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tgqBs-2qhETHzA4OnDz1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-18" target="tgqBs-2qhETHzA4OnDz1-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="200" />
+              <mxPoint x="900" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="C81Zs6hBcrObSyvkOhi6-18" value="新增插件实例" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="660" y="120" width="80" height="40" as="geometry" />
@@ -129,6 +134,32 @@
         </mxCell>
         <mxCell id="tgqBs-2qhETHzA4OnDz1-38" value="&lt;font color=&quot;#ff0000&quot;&gt;3&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=7;container=0;" vertex="1" parent="tgqBs-2qhETHzA4OnDz1-36">
           <mxGeometry width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tgqBs-2qhETHzA4OnDz1-40" value="上报设备数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tgqBs-2qhETHzA4OnDz1-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tgqBs-2qhETHzA4OnDz1-41" target="tgqBs-2qhETHzA4OnDz1-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tgqBs-2qhETHzA4OnDz1-41" value="查询设备列表" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tgqBs-2qhETHzA4OnDz1-42" value="查询设备数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tgqBs-2qhETHzA4OnDz1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-4" target="tgqBs-2qhETHzA4OnDz1-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgqBs-2qhETHzA4OnDz1-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C81Zs6hBcrObSyvkOhi6-4" target="tgqBs-2qhETHzA4OnDz1-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="300" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
