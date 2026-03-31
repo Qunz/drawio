@@ -164,7 +164,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VBJ5JluLm5GAm5C2ae1y-39" parent="VBJ5JluLm5GAm5C2ae1y-37" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Row 3" vertex="1">
+        <mxCell id="VBJ5JluLm5GAm5C2ae1y-39" parent="VBJ5JluLm5GAm5C2ae1y-37" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="管理员id" vertex="1">
           <mxGeometry height="30" width="130" x="30" as="geometry">
             <mxRectangle height="30" width="130" as="alternateBounds" />
           </mxGeometry>
@@ -706,6 +706,12 @@
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="40" y="960" as="sourcePoint" />
             <mxPoint x="70" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75lGrpbdZczxkiOieOyy-127" edge="1" parent="1" source="VBJ5JluLm5GAm5C2ae1y-37" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" target="VBJ5JluLm5GAm5C2ae1y-95" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="-480" y="930" as="sourcePoint" />
+            <mxPoint x="-380" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
