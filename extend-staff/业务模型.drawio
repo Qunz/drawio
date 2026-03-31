@@ -306,7 +306,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VBJ5JluLm5GAm5C2ae1y-85" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="外协人员表" vertex="1">
-          <mxGeometry height="180" width="160" y="640" as="geometry" />
+          <mxGeometry height="180" width="160" y="620" as="geometry" />
         </mxCell>
         <mxCell id="VBJ5JluLm5GAm5C2ae1y-86" parent="VBJ5JluLm5GAm5C2ae1y-85" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="160" y="30" as="geometry" />
