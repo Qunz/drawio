@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.6" pages="2">
   <diagram name="供应商准入流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1195" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="1306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,7 +256,7 @@
         <mxCell id="p_wTDJqbgMDS141Vgq6q-77" parent="p_wTDJqbgMDS141Vgq6q-76" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" value="用工离场审核" vertex="1">
           <mxGeometry height="60" width="80" x="40" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="p_wTDJqbgMDS141Vgq6q-78" parent="p_wTDJqbgMDS141Vgq6q-76" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="选择人员" vertex="1">
+        <mxCell id="p_wTDJqbgMDS141Vgq6q-78" parent="p_wTDJqbgMDS141Vgq6q-76" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="选择交接人员" vertex="1">
           <mxGeometry height="60" width="100" x="30" y="320" as="geometry" />
         </mxCell>
         <mxCell id="p_wTDJqbgMDS141Vgq6q-79" edge="1" parent="p_wTDJqbgMDS141Vgq6q-76" source="p_wTDJqbgMDS141Vgq6q-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="p_wTDJqbgMDS141Vgq6q-78" value="通过">
