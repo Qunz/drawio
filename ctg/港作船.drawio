@@ -70,20 +70,35 @@
             <mxPoint x="330.38" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7vzpYnH4mRGK0fSRON33-2" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;" value="" vertex="1">
-          <mxGeometry height="60" width="100" x="460" y="580" as="geometry" />
-        </mxCell>
-        <mxCell id="7vzpYnH4mRGK0fSRON33-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="定时数据归档&lt;br&gt;（24小时）" vertex="1">
-          <mxGeometry height="30" width="60" x="480" y="595" as="geometry" />
-        </mxCell>
         <mxCell id="7vzpYnH4mRGK0fSRON33-10" edge="1" parent="1" source="7vzpYnH4mRGK0fSRON33-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7vzpYnH4mRGK0fSRON33-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7vzpYnH4mRGK0fSRON33-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="MQ消费" vertex="1">
           <mxGeometry height="60" width="100" x="80" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="7vzpYnH4mRGK0fSRON33-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="数据&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;校验&lt;/span&gt;" vertex="1">
+        <mxCell id="7vzpYnH4mRGK0fSRON33-17" edge="1" parent="1" source="7vzpYnH4mRGK0fSRON33-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7vzpYnH4mRGK0fSRON33-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="数据融合" vertex="1">
           <mxGeometry height="60" width="100" x="80" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-11" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" value="归档数据存储" vertex="1">
+          <mxGeometry height="60" width="100" x="560" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-13" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="100" x="400" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-2" parent="7vzpYnH4mRGK0fSRON33-13" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="60" width="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-6" parent="7vzpYnH4mRGK0fSRON33-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="定时数据归档&lt;br&gt;（24小时）" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-14" edge="1" parent="1" source="7vzpYnH4mRGK0fSRON33-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7vzpYnH4mRGK0fSRON33-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="是否" vertex="1">
+          <mxGeometry height="100" width="100" x="240" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
