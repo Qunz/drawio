@@ -97,8 +97,8 @@
         <mxCell id="7vzpYnH4mRGK0fSRON33-14" edge="1" parent="1" source="7vzpYnH4mRGK0fSRON33-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7vzpYnH4mRGK0fSRON33-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7vzpYnH4mRGK0fSRON33-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="是否" vertex="1">
-          <mxGeometry height="100" width="100" x="240" y="680" as="geometry" />
+        <mxCell id="7vzpYnH4mRGK0fSRON33-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="是否有效" vertex="1">
+          <mxGeometry height="60" width="80" x="240" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
