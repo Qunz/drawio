@@ -59,6 +59,9 @@
         <mxCell id="7vzpYnH4mRGK0fSRON33-1" edge="1" parent="1" source="JP3aEYhB4IiLHoi5vswk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JP3aEYhB4IiLHoi5vswk-25" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-8" edge="1" parent="1" source="JP3aEYhB4IiLHoi5vswk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="7vzpYnH4mRGK0fSRON33-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JP3aEYhB4IiLHoi5vswk-48" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;MQ" vertex="1">
           <mxGeometry height="70" width="260" x="80" y="460" as="geometry" />
         </mxCell>
@@ -72,6 +75,15 @@
         </mxCell>
         <mxCell id="7vzpYnH4mRGK0fSRON33-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="定时数据归档&lt;br&gt;（24小时）" vertex="1">
           <mxGeometry height="30" width="60" x="480" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-10" edge="1" parent="1" source="7vzpYnH4mRGK0fSRON33-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7vzpYnH4mRGK0fSRON33-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="MQ消费" vertex="1">
+          <mxGeometry height="60" width="100" x="80" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7vzpYnH4mRGK0fSRON33-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="数据&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;校验&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="80" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
