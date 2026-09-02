@@ -100,8 +100,8 @@
         <mxCell id="7vzpYnH4mRGK0fSRON33-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="是否有效&lt;br&gt;时间窗口" vertex="1">
           <mxGeometry height="60" width="100" x="80" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="YQMMoYeJUl0CagYWY_2L-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="数据融合" vertex="1">
-          <mxGeometry height="60" width="100" x="240" y="680" as="geometry" />
+        <mxCell id="YQMMoYeJUl0CagYWY_2L-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;verticalAlign=top;" value="数据融合&lt;div&gt;（判断可信度、新鲜度、空间一致性）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="290" width="420" x="240" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
